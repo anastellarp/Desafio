@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E7E9C4;
+}
+#cabeçalho{
+    list-style-type: none;
+    padding: 0;
+    background-color: green;
+    text-align: right;
+}
+#cabeçalho button{
+    background-color: olive;
+    border: darkgoldenrod;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    color: white;
+    margin-right: 80px;
+}
+#cabeçalho button:hover {
+    background-color: greenyellow;
+    color: olive;
+}
+#cabeçalho li {
+    display: inline;
+}
+#cabeçalho li a{
+    display: inline;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+    display: inline-block;
+    margin-right: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#cabeçalho li a:hover {
+    background-color: olive;
+    color: white;
+}
+
+.faixa {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: greenyellow;
+    padding: 40px;
+    text-align: center;
+    color: black;
+}
+
+.catálogo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.catálogo hr {
+    width: 60px;
+    height: 5px;
+    background-color: olive;
+    margin: 0 auto;
+}
+
+.catálogo h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .faixa {
+        margin-top: 40px; 
+        padding: 20px; /
+    }
+
+    .catálogo {
+        margin: 10px; 
+    }
+}
+
+
+.geral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 16px;
+    background-color: #E7E9C4;
+    flex-wrap: wrap; 
+    padding: 20px; 
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+.produto {
+    background-color: #ADFF2F;
+    width: 160px;
+    height: 280px;
+    border-radius: 3px;
+    box-shadow: 2px 1px 5px black ;
+}
+.produto h1{
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.produto h2{
+    font-size: 8px;
+    color: olive;
+    text-align: center;
+}
+.produto h3{
+    font-size: 13px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+.produto button {
+    height: 30px;
+    background-color: olive;
+    border: none;
+    padding: 5px;
+    margin-left: 26px;
+    color: white;
+    font-size: bold ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+}
+.produto button:hover {
+    background-color: green;
+    color:white;
+}
+img{
+    width: 160px;
+    height: 140px;
+    border-radius: 3px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}

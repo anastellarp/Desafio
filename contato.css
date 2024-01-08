@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E7E9C4;
+}
+#cabeçalho{
+    list-style-type: none;
+    padding: 0;
+    background-color: green;
+    text-align: right;
+}
+#cabeçalho button{
+    background-color: olive;
+    border: darkgoldenrod;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    color: white;
+    margin-right: 80px;
+
+}
+#cabeçalho button:hover {
+    background-color: greenyellow;
+    color: olive;
+}
+#cabeçalho li {
+    display: inline;
+}
+#cabeçalho li a{
+    display: inline;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+    display: inline-block;
+    margin-right: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#cabeçalho li a:hover {
+    background-color: olive;
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+.texto {
+    max-width: 800px;
+    color: black;
+    text-align: center; 
+}
+
+.texto h1 {
+    color: black;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: transparent;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    color: black;
+    text-align: center;  
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    box-sizing: border-box; 
+}
+
+.enviar:hover {
+    background-color: olive;
+    color: white;
+    transition: 0.5s;
+}
+
+.enviar {
+    background-color: transparent;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    color: olive;
+}
+
+textarea {
+    height: 120px;
+    line-height: 20px;
+    resize: vertical;
+}
+
+.custom-link {
+    color: olive !important;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.custom-link-container {
+    margin-top: 10px;
+}
+
+.custom-link:hover {
+    color: white !important;
+}
